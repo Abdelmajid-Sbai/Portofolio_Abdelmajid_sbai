@@ -1,0 +1,282 @@
+/* :root{
+   margin-top: -24px;
+}
+
+body{
+    margin: 0px;
+    padding-top: 0px;
+   
+    
+
+    
+}
+.container{
+    background-color: #ffffe0;
+    
+    
+} */
+
+/* #root{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.color-yel{
+    color: #57370d;
+} */
+
+/* .navbar{
+    background-color: #ffe998;
+    color: #57370d;
+    
+} */
+
+/* .navbar-nav{
+    margin-top: 3px;
+}
+
+
+b{
+    color: #57370d;
+} */
+/* .storie{
+    background-color: #ffe998;
+    padding: 5px;
+    color: #57370d;
+}
+.card1{
+    background-color: #edd59e;
+}
+
+.card2{
+    background-color: #ffe998;
+} */
+
+/* #h31{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #57370d;
+
+    color: #ffe998;
+   
+  } */
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffe998;
+    color: #57370d;
+    border: 0px;
+    margin-right: 5px;
+  
+  }
+
+/*.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffe998;
+    color: #57370d;
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+
+.nav-link:hover{
+    background-color: #57370d;
+    color: #ffe998;
+}*/
+
+
+/* #card_img{
+    width: 200px;
+    border-radius: 10%;
+} */
+
+#devimage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    
+}
+
+.image{
+  
+    
+ 
+   border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+    width: 56%;
+    justify-items: center;
+   
+    
+}
+
+#dev-dev-img{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.game{
+    background-color: #ffe998;
+    width: 30px;
+    height: 30px;
+   
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes square{
+    0%{
+        translate: 90px 0;
+        background: #ffe998;
+        rotate: 0;
+    }
+    25%{
+        translate: 90px 420px;
+        background: #57370d;
+        rotate: 90deg;
+    }
+    50%{
+        translate: 420px 425px;
+        background: #ffe998;
+        rotate: 180deg;
+    }
+    75%{
+        translate: 425px 0;
+        background: #57370d;
+        rotate: 270deg;
+    }
+    100%{
+        translate:90px 0;
+        background: #ffe998;
+        rotate: 360deg;
+    }
+}
+
+form{
+    padding: 10px;
+    border-radius: 20px;
+    
+ 
+    background-color: #edd59e;
+}
+
+.info{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 10px;
+    
+    padding: 10px;
+    
+    
+    background-color: #ffe998;
+    margin-bottom: 15px;
+}
+.footerspan{
+    color: #57370d;
+}
+
+.footer{
+    background-color: #ffe998;
+    color: #57370d;
+}
+
+.home{
+    height: 450px;
+}
+
+.allprojet{
+    display: flex;
+    justify-content: center;
+}
+
+.glass{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 10px;
+   
+    
+}
+.glass3{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 10px;
+    
+    
+  
+}
+
+/* .glass1{
+    background: url(/public/myphotos/fsjest.jpeg);
+   
+    border-radius: 20px;
+    background-repeat: repeat;   
+    background-size: cover;
+    background-position: center;
+    
+} */
+.imgismontic{
+    height: 185px;
+}
+
+/* .glass2{
+    background: url(/public/myphotos/ismontic2.jpeg);
+
+    border-radius: 20px;
+    background-repeat: repeat;   
+    background-size: cover;
+    background-position: center;
+} */
+
+.divv{
+    border-radius: 20px;
+    background-color: #ffe998;
+    background-size: 100%;
+    background-position: center;
+}
+
+.div-glass{
+    background-color: #ffe998;
+    border-radius: 20px;
+}
+
+.titre{
+    list-style: none;
+    color: #ffb300;
+}
+
+.titre1{
+    list-style: none;
+    
+    color: #ffb300;
+}
+
+.horizontal-line{
+    text-decoration:underline ;
+    border-bottom: 1px solid #ffb300; /* Change the color and width as needed */
+    width: 100%; 
+    padding: 5px;
+    text-decoration-style: none;
+    list-style-type: none;
+}
