@@ -1,10 +1,12 @@
 import React from 'react'
 import "./about.css";
 import Me from "../../assets/photo1.jpg";
-import cv from "../../assets/cv.pdf"
+import cv from "../../assets/cv.pdf";
+import AboutBox from './AboutBox';
 
 const About = () => {
   return (
+    <>
     <section className='about__container  section' id='about'>
       <h2 className='section__title'>About Me</h2>
 
@@ -68,6 +70,8 @@ const About = () => {
         </div>
       </div>
     </section>
+    <AboutBox/>
+    </>
   )
 }
 

@@ -23,6 +23,13 @@
     column-gap: 1.875rem;
     
 }
+.about__container__Competences{
+    grid-template-columns: 3fr 5fr;
+    column-gap: 1.875rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .about__data{
     padding: 1rem;
@@ -34,6 +41,28 @@
     align-items: flex-start;
     position: relative;
 
+}
+.about__data__c{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    padding: 1rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1.875rem;
+    align-items: flex-start;
+    position: relative;
+    margin: 5px;
+    flex-wrap: wrap;
+  
+
+}
+.skills__data__c{
+    margin: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .about__data::before{
@@ -101,6 +130,61 @@
 .excel{
     width: 60%;
     background-color: blue;
+}
+
+
+
+
+/* competences */
+.React{
+    width: 85%;
+    background-color: rgb(255, 251, 0);
+}
+.Laravel{
+    width: 85%;
+    background-color: rgb(255, 251, 0);
+}
+.Bootstrap{
+    width: 85%;
+    background-color: rgb(255, 251, 0);
+}
+.Css{
+    width: 87%;
+    background-color: rgb(104, 252, 111);
+}
+.Html{
+    width: 90%;
+    background-color: rgb(119, 255, 92);
+}
+.Node{
+    width: 75%;
+    background-color: rgb(255, 115, 0);
+}
+.Js{
+    width: 80%;
+    background-color: rgb(255, 209, 92);
+}
+
+.equipe{
+    width: 100%;
+    background-color: rgb(119, 255, 92);
+}
+.Responsabilité{
+    width: 100%;
+    background-color: rgb(119, 255, 92);
+}
+.Motivation{
+    width: 100%;
+    background-color: rgb(119, 255, 92);
+}
+
+.Design{
+    width: 70%;
+    background-color: rgb(157, 255, 0);
+}
+.Draw{
+    width: 75%;
+    background-color: rgb(157, 255, 0);
 }
 
 

@@ -34,11 +34,11 @@ const Contact = () => {
           <div className='about__skills grid'>
           <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="from_name" /><br/>
+      <input type="text" className='btn' name="from_name" /><br/>
       <label>Email</label>
-      <input type="email" name="from_email" /><br/>
+      <input type="email" className='btn' name="from_email" /><br/>
       <label>Message</label>
-      <textarea name="message" /><br/>
+      <textarea name="message" className='btn' /><br/>
       <input type="submit" className='btn contactme' value="Send" />
     </form>
             
