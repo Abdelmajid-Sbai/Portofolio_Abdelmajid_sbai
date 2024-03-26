@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portofolio_Abdelmajid_sbai/static/css/main.527c42c3.css",
-    "main.js": "/Portofolio_Abdelmajid_sbai/static/js/main.263819b4.js",
+    "main.css": "/Portofolio_Abdelmajid_sbai/static/css/main.c07e56ca.css",
+    "main.js": "/Portofolio_Abdelmajid_sbai/static/js/main.0cbf7841.js",
     "static/media/photo1.jpg": "/Portofolio_Abdelmajid_sbai/static/media/photo1.0c92f33378fac15a06c0.jpg",
     "static/media/newprojet.PNG": "/Portofolio_Abdelmajid_sbai/static/media/newprojet.086c13c1e787eb5ba3b3.PNG",
     "static/media/sitelaravel.PNG": "/Portofolio_Abdelmajid_sbai/static/media/sitelaravel.3eb76186f0261b8cb1b8.PNG",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/Portofolio_Abdelmajid_sbai/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
     "static/media/dots-bg.svg": "/Portofolio_Abdelmajid_sbai/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/Portofolio_Abdelmajid_sbai/index.html",
-    "main.527c42c3.css.map": "/Portofolio_Abdelmajid_sbai/static/css/main.527c42c3.css.map",
-    "main.263819b4.js.map": "/Portofolio_Abdelmajid_sbai/static/js/main.263819b4.js.map"
+    "main.c07e56ca.css.map": "/Portofolio_Abdelmajid_sbai/static/css/main.c07e56ca.css.map",
+    "main.0cbf7841.js.map": "/Portofolio_Abdelmajid_sbai/static/js/main.0cbf7841.js.map"
   },
   "entrypoints": [
-    "static/css/main.527c42c3.css",
-    "static/js/main.263819b4.js"
+    "static/css/main.c07e56ca.css",
+    "static/js/main.0cbf7841.js"
   ]
 }
