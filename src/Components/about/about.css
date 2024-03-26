@@ -25,7 +25,7 @@
 }
 
 .about__data{
-    padding: 1.875rem;
+    padding: 1rem;
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
@@ -110,13 +110,13 @@
         grid-template-columns: 720px;
         justify-content: center;
         row-gap: 1.875rem;
-        margin: 0px;
-        padding: 0px;
+        
     }
 
-    section{
-        margin: 0px;
-        padding: 0px;
+    .section{
+        margin-right: 10px;
+       
+        padding: 0rem;
     }
     .bout__description{
         display: block;
@@ -144,7 +144,7 @@
         left: 49%;
         top: -20px;
         width: 20%;
-        padding: 0;
+        padding: 0rem;
         display: block;
     }
     .about__img{
@@ -220,7 +220,7 @@
   
   .section__title{
       text-align: center;
-      justify-content: center;
+    
   }
   
   

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css";
 import Me from "../../assets/photo1.jpg";
+import cv from "../../assets/cv.pdf"
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
           <div className='about__info'>
             <p className='about__description'>My name is Abdelmadjid S'bai, I am 20 years old and I am currently a student at the ISTA NTIC Tangier Vocational Training Institute, specialized in the development of websites, by deferent programming languages such as HTML, CSS, JAVASCREPT, PHP, REACT, LARAVEL. I am currently studying at the Faculty of Legal,
              Economic and Social Sciences, Tangier, with an option in economics and management.</p>
-            <a href='' className='btn ' id='cv'>CV <span className='p-1'><i className='icon-arrow-down-circle m-1 p-1'></i></span></a>
+            <a href={cv} className='btn ' id='cv' download='cv'>CV <span className='p-1'><i className='icon-arrow-down-circle m-1 p-1'></i></span></a>
 
           </div>
 

@@ -17,7 +17,7 @@ const Home = () => {
       
       <Socials/>
 
-      <a href='#contact' className='btn'>Contact Me</a>
+      <a href='#contact' className='btn contactme'>Contact Me</a>
       <Scrool/>
       </div>
 

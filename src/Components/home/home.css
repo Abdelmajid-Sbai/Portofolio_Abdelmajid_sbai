@@ -132,6 +132,16 @@
     animation: ani-mouse 2s linear infinite;
 }
 
+.contactme{
+    color: #57370d;
+    background-color: #ffe998;
+}
+
+.contactme:hover{
+    color: #ffe998;
+    background-color: #57370d;
+}
+
 
 
 /* .shapes{
@@ -149,7 +159,6 @@
 
 
 @media screen and (max-width:1024px){
-    
     .home__social-link{
         font-size: 1.125rem;
     }
